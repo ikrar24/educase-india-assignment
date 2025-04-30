@@ -81,7 +81,7 @@ function LoginScreen() {
               id="loginBtn"
               type="submit"
               style={{
-                backgroundColor: isFormFilled ? "rgb(28, 126, 255)" : "rgba(92, 92, 92, 0.596)",
+                backgroundColor: isFormFilled ? "#6c25ff" : "rgba(92, 92, 92, 0.596)",
                 color: "white",
                 cursor: isFormFilled ? "pointer" : "default",
               }}

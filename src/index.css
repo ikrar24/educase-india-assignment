@@ -6,10 +6,13 @@
 
 body{
     overflow: hidden;
+    font-family: rubik, sans-serif;
 }
 
+
+
 .desktopSize{
-    background-color: black;
+    background-color: rgb(88, 88, 88);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -21,7 +24,51 @@ body{
 .mobileSize{
     /* border: 2px solid red; */
     width: 375px;
-    height: 595px;
+    height: 600px;
     border-radius: 5px;
     background-color: white;
 }
+
+
+@media screen and (max-width: 430px) {
+    .mobileSize {
+      width: 430px;
+      height: 932px;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .mobileSize {
+      width: 414px;
+      height: 896px;
+    }
+  }
+  
+  @media screen and (max-width: 412px) {
+    .mobileSize {
+      width: 412px;
+      height: 915px;
+    }
+  }
+  
+  @media screen and (max-width: 390px) {
+    .mobileSize {
+      width: 390px;
+      height: 844px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .mobileSize {
+      width: 375px;
+      height: 675px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .mobileSize {
+      width: 360px;
+      height: 740px;
+    }
+  }
+  
