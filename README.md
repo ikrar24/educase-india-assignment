@@ -8,9 +8,6 @@ Short one-liner summary of Assigment project.
 ---
 
 
-## File Stracture
-
-## 📁 Project Structure
 
 ## 📁 Project Structure
 
