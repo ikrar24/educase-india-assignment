@@ -1,194 +1,177 @@
 /* Profile container css */
 
-.profileContainer{
-    /* border: 2px solid red; */
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    
+.profileContainer {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-
-.ProfileBox{
-    /* border: 2px solid red; */
-    width: 95%;
-/* overflow: hidden; */
-    height: 95%;
-    
+.ProfileBox {
+  /* border: 2px solid red; */
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
 }
-
-
-
 
 /* profile Heading css */
 
- .settingHeadingBox{
-    /* border: 2px solid red; */
-    margin-bottom: 25px;
- }
-
-
-.settingHeading{
-    font-weight: normal;
-    font-size: 23px;
+.settingHeadingBox {
+  /* border: 2px solid red; */
+  margin-bottom: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
-
- /* hero (img) section css */
-
-.heroSection{
-    /* border: 2px solid green; */
-    display: flex;
-    
-
+.settingHeading {
+  font-weight: normal;
+  font-size: 23px;
 }
 
+/* hero (img) section css */
 
-
-.username{
-    font-weight: bold;
+.heroSection {
+  /* border: 2px solid green; */
+  display: flex;
+  padding-top: 10px;
 }
 
-
-.userEmail{
-    font-weight: normal;
+.heroBox {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100%;
+  padding: 0px 5px 0px 5px;
+  background-color: rgba(243, 243, 243, 0.925);
 }
 
-.imgContainer{
-    /* border: 2px solid red; */
-    width: 100%;
-    display: flex;
-  
+.username {
+  font-weight: bold;
 }
 
-
-.profileImgBox{
-    /* border: 2px solid black; */
-    display: flex;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    position: relative;
-    margin-right: 20px;
-    /* cursor: pointer; */
+.userEmail {
+  font-weight: normal;
 }
 
+.imgContainer {
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+}
 
-
+.profileImgBox {
+  /* border: 2px solid black; */
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  position: relative;
+  margin-right: 20px;
+  /* cursor: pointer; */
+}
 
 .profileImg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.profileEditIcon {
+  position: absolute;
+  bottom: 5px;
+  color: white;
+  background-color: #6c25ff;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  right: 0;
+  display: flex;
+}
+
+i {
+  cursor: pointer;
+}
+
+/* bio css */
+
+.bioContainer {
+  margin-top: 20px;
+  position: relative;
+  /* border: 2px solid red; */
+  border-bottom: 2px dashed rgb(199, 199, 199);
+  padding: 10px;
+}
+
+.editBox {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  right: 0;
+  cursor: pointer;
+  background-color: #6c25ff;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  color: white;
+}
+
+.bioContainer:hover {
+  .editBox {
+    display: flex;
   }
-  
-
-
-
-.profileEditIcon{
-    position: absolute;
-    bottom: 5px;
-    color:white;
-    background-color: rgb(0, 47, 255);
-    width: 20px;
-    height: 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    right: 0;
-    display: flex;
 }
 
-i{
-cursor: pointer;
+.bio {
+  font-size: 15px;
+  font-weight: normal;
 }
 
+/* bio Update css */
 
-/* bio css */
-
-.bioContainer{
-    
-    margin-top: 20px;
-    position: relative;
-    /* border: 2px solid red; */
-    padding: 10px;
+.changeBioBox {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  padding: 10px;
+  width: 335px;
+  background-color: rgba(230, 230, 230, 0.884);
 }
 
-
-
-.editBox{
-    display: none;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    right: 0;
-    cursor: pointer;
-    background-color: rgb(0, 47, 255);
-    width: 20px;
-    height: 20px;
-    position: absolute;
-bottom: 0px;
-right: 10px;
-color:white;
-
+.changeBio {
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+  font-size: 13px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
-
-.bioContainer:hover{
-    .editBox{
-        display: flex;
-    }
+#cross {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
 }
 
-
-
-
-/* bio css */
-
-
-.changeBioBox{
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    padding: 10px;
-    width: 335px;
-    background-color: rgba(230, 230, 230, 0.884);
-}
-
-
-.changeBio{
-    width: 300px;
-    height: 100px;
-    padding: 5px;
-    font-size: 13px;
-    outline: none;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-bottom: 10px;
-
-}
-
-#cross{
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 20px;
-}
-
-
-.bioUpdate{
-    width: 95%;
-    padding: 10px;
-    background-color: rgb(0, 174, 255);
-    border-radius: 5px;
-    border: 1px solid black;
-    outline: none;
-    cursor: pointer;
+.bioUpdate {
+  width: 95%;
+  padding: 10px;
+  background-color: #6c25ff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }

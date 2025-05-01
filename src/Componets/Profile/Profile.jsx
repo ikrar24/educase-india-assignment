@@ -50,6 +50,7 @@ function Profile() {
             <h1 className="settingHeading">Account Settings</h1>
           </div>
 
+ <div className="heroBox">
           <section className="heroSection">
             <div className="imgContainer">
               <div className="profileImgBox">
@@ -68,7 +69,7 @@ function Profile() {
                     id="fileInput"
                   />
                   <label htmlFor="fileInput">
-                    <i className="fa-solid fa-pen-to-square"></i>
+                  <i class="fa-solid fa-camera"></i>
                   </label>
                 </div>
               </div>
@@ -118,6 +119,7 @@ function Profile() {
               </button>
             </div>
           )}
+        </div>
         </div>
       </section>
     </>
