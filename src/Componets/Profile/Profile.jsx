@@ -69,7 +69,7 @@ function Profile() {
                     id="fileInput"
                   />
                   <label htmlFor="fileInput">
-                  <i class="fa-solid fa-camera"></i>
+                  <i className="fa-solid fa-camera"></i>
                   </label>
                 </div>
               </div>
