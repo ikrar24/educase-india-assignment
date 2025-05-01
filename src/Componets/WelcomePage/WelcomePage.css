@@ -5,7 +5,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(218, 218, 218);
 }
 
 .Container {
@@ -140,6 +140,14 @@ li {
   .Container{
       width: 386px;
       height: 667px;
+  }
+
+} 
+
+@media screen and (max-width:360px) {
+  .Container{
+      width: 360px;
+      height: 740px;
   }
 
 } 
